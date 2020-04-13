@@ -5,11 +5,16 @@
 	justify-content:space-between;
   color:white;
 }
-.logo{
-  width:97px;
-}
-.logged_in{
+.logo_and_search{
   display:flex;
 	align-items:center;
 	justify-content:space-between;
+}
+.logo{
+  width:97px;
+}
+.user_info{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }

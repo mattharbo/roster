@@ -1,14 +1,17 @@
 <div class="container">
   <div class="header">
-    <div class="logo">
-      logo here
-    </div>
-    <div class="search">
-      <input type="text" name="" placeholder="&#xf002;  Search team, game or player" class="searchbar">
+
+    <div class="logo_and_search">
+      <div class="logo">
+        logo here
+      </div>
+      <div class="search">
+        <input type="text" name="" placeholder="&#xf002;  Search team, game or player" class="searchbar">
+      </div>
     </div>
 
     <% if user_signed_in? %>
-      <div class="logged_in">
+      <div class="user_info">
         <div class="btn_logged_in_user">
           <%= current_user.email %>
         </div>
