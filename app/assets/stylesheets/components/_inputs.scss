@@ -1,0 +1,21 @@
+.searchbar{
+  background-color:#121212;
+  padding:10px 20px;
+  border-radius:25px;
+  outline:none;
+  border:none;
+  color:white;
+  font-size: 16px;
+  font-weight:700;
+  text-align: center;
+  width:300px;
+}
+.searchbar:hover{
+  border:3px white solid;
+}
+.searchbar:focus{
+  outline:none;
+  border:3px white solid;
+  color:#121212;
+  background-color:white;
+}

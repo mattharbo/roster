@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css?family=Raleway:600,700|Ubuntu:400,500,700&display=swap');
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+ body{
+   background-color:#121212;
+   color:#fff;
+   font-family: 'Raleway', sans-serif;
+   font-size:14px;
+   font-weight:500;
+   margin:0;
+ }
+ .container{
+   width:1080px;
+   margin:0 auto;
+   text-align:center;
+ }
+ h1{
+   font-size: 80px;
+ }
+ input {
+   font-family: 'FontAwesome';
+ }
+
+ /* #### CSS Parials #### */
+@import "components/header";
+@import "components/buttons";
+@import "components/inputs";
