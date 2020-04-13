@@ -7,6 +7,16 @@
       <input type="text" name="" placeholder="&#xf002;  Search team, game or player" class="searchbar">
     </div>
 
-    <div class="btn_login">Login</div>
+    <% if user_signed_in? %>
+      <div class="logged_in">
+        <div class="btn_logged_in_user">
+          <%= current_user.email %>
+        </div>
+          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_logout btn_default"%>
+      </div>
+    <% else %>
+      <%= link_to "Login", teams_index_path, class: "btn_login btn_default"%>
+    <% end %>
+
   </div>
 </div>
