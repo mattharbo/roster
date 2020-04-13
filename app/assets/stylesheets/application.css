@@ -27,10 +27,12 @@
  .container{
    width:1080px;
    margin:0 auto;
-   text-align:center;
  }
  h1{
    font-size: 80px;
+ }
+ h2{
+   font-size: 30px;
  }
  input {
    font-family: 'FontAwesome';

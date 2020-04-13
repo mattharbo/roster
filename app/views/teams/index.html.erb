@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Your teams</h2>
+
+  <% @teams.each do |team| %>
+    <%= team.name %> <small>- <%= team.city %></small>
+  <% end %>
+
+</div>
