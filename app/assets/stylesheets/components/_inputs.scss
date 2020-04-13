@@ -10,6 +10,15 @@
   text-align: center;
   width:300px;
 }
+.searchbar::-webkit-input-placeholder { /* Edge */
+  color:white;
+}
+.searchbar:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:white;
+}
+.searchbar::placeholder {
+  color:white;
+}
 .searchbar:hover{
   border:3px white solid;
 }
