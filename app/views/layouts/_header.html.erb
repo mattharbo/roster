@@ -2,12 +2,11 @@
   <div class="header">
 
     <div class="logo_and_search">
-      <div class="logo">
-        logo here
-      </div>
-      <div class="search">
+      <%= show_svg('logo-roster.svg') %>
+
+      <!-- <div class="search">
         <input type="text" name="" placeholder="&#xf002;  Search team, game or player" class="searchbar">
-      </div>
+      </div> -->
     </div>
 
     <% if user_signed_in? %>
@@ -15,14 +14,14 @@
         <div class="btn_secondary">
           <%= current_user.email %>
         </div>
-          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_logout btn_default"%>
+          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn-primary"%>
       </div>
     <% else %>
       <div class="header_right_info">
         <div class="btn_secondary">
           Sign in
         </div>
-        <%= link_to "Login", teams_index_path, class: "btn_login btn_default"%>
+        <%= link_to "Login", teams_index_path, class: "btn-primary"%>
       </div>
     <% end %>
 

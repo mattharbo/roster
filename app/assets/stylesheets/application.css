@@ -13,29 +13,53 @@
  *= require_tree .
  *= require_self
  */
- @import url('https://fonts.googleapis.com/css?family=Raleway:600,700|Ubuntu:400,500,700&display=swap');
- @import "font-awesome-sprockets";
+ /* @import url('https://fonts.googleapis.com/css?family=Raleway:600,700|Ubuntu:400,500,700&display=swap'); */
+
+ @font-face {
+   font-family: "Fellix black";
+   src: url(/assets/Fellix-Black.otf) format("truetype");
+ }
+ @font-face {
+   font-family: "Fellix bold";
+   src: url(/assets/Fellix-Black.otf) format("truetype");
+ }
+ @font-face {
+   font-family: "Cabin bold";
+   src: url(/assets/Cabin-Bold.ttf) format("truetype");
+ }
+ @font-face {
+   font-family: "Cabin medium";
+   src: url(/assets/Cabin-Medium.ttf) format("truetype");
+ }
+ @font-face {
+   font-family: "Cabin semibold";
+   src: url(/assets/Cabin-SemiBold.ttf) format("truetype");
+ }
  @import "font-awesome";
  body{
-   background-color:#121212;
-   color:#fff;
-   font-family: 'Raleway', sans-serif;
+   background-color:#fff;
+   color:#6B6A75;
+   font-family: "Cabin medium", sans-serif;
    font-size:14px;
-   font-weight:500;
    margin:0;
  }
  .container{
-   width:1080px;
+   width:1000px;
    margin:0 auto;
  }
  h1{
-   font-size: 80px;
+   font-family: "Fellix black";
+   font-size: 90px;
+   margin-top: 140px;
+   color:#01190C;
  }
  h2{
-   font-size: 30px;
+   font-family: "Fellix bold";
+   font-size: 24px;
+   color:#01190C;
  }
  input {
-   font-family: 'FontAwesome';
+   /* font-family: 'FontAwesome'; */
  }
 
  /* #### CSS Parials #### */
