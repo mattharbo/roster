@@ -47,6 +47,14 @@
    width:1000px;
    margin:0 auto;
  }
+ .alert{
+   position:absolute;
+   bottom:15px;
+   right:40px;
+   background-color: #F4F4F4;
+   padding:20px 30px;
+   border-radius:15px;
+ }
  h1{
    font-family: "Fellix black";
    font-size: 90px;
