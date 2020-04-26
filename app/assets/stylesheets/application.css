@@ -43,6 +43,12 @@
    font-size:14px;
    margin:0;
  }
+ ::selection {
+  background:#98FFCF; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background:#98FFCF; /* Gecko Browsers */
+}
  .container{
    width:1000px;
    margin:0 auto;
