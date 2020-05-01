@@ -17,23 +17,23 @@
 
  @font-face {
    font-family: "Fellix black";
-   src: url(/assets/Fellix-Black.otf) format("truetype");
+   src: asset-url('Fellix-Black.otf') format("truetype");
  }
  @font-face {
    font-family: "Fellix bold";
-   src: url(/assets/Fellix-Black.otf) format("truetype");
+   src: asset-url('Fellix-Black.otf') format("truetype");
  }
  @font-face {
    font-family: "Cabin bold";
-   src: url(/assets/Cabin-Bold.ttf) format("truetype");
+   src: asset-url('Cabin-Bold.ttf') format("truetype");
  }
  @font-face {
    font-family: "Cabin medium";
-   src: url(/assets/Cabin-Medium.ttf) format("truetype");
+   src: asset-url('Cabin-Medium.ttf') format("truetype");
  }
  @font-face {
    font-family: "Cabin semibold";
-   src: url(/assets/Cabin-SemiBold.ttf) format("truetype");
+   src: asset-url('Cabin-SemiBold.ttf') format("truetype");
  }
 
  body{
