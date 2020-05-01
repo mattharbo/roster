@@ -71,7 +71,7 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "myskwad_#{Rails.env}"
 
   config.action_mailer.perform_caching = false
-  config.action_mailer.default_url_options = { :host => 'yourapp.heroku.com' }
+  config.action_mailer.default_url_options = { :host => 'https://fathomless-lowlands-98945.herokuapp.com' }
 
 
   # Ignore bad email addresses and do not raise email delivery errors.
