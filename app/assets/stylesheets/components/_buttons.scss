@@ -1,46 +1,30 @@
-.btn_default{
+.btn_secondary{
   border-radius:25px;
+  border: 1px solid #E6E6E6;
   padding:10px 30px;
   font-weight:700;
   text-decoration:none;
+  color: #6B6A75;
 }
-.btn_login{
-  background-color:#54f3aa;
-  // background:linear-gradient(136deg, #70FFBD, #46D795);
-  color:white;
+.btn_secondary:hover{
+  transform: scale(1.02);
 }
-.btn_login:hover{
-  opacity:0.9;
-  cursor:pointer;
-}
-.btn_logout{
-  border:2px solid white;
-  color:#6B6A75;
-}
-.btn_logout:hover{
-  background-color:white;
-  color:#121212;
-}
-.btn_secondary{
+
+.btn_default{
   margin-right:30px;
 }
 
 
 
-
-
 .btn-primary{
-  // font-family: "Cabin bold";
   font-family: "Cabin semibold";
   font-size: 14px;
   border-radius:25px;
   padding:8px 34px;
   color:white;
-  // background-color:#54f3aa;
   background:linear-gradient(136deg, #70FFBD, #0ffa8f);
   text-decoration:none;
 }
 .btn-primary:hover{
-
   transform: scale(1.02);
 }

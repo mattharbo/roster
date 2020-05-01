@@ -1,29 +1,13 @@
-.searchbar{
-  background-color:#121212;
-  padding:10px 20px;
-  border-radius:25px;
+input {
+  font-family: "Cabin medium", sans-serif;
+  font-size:14px;
   outline:none;
-  border:none;
-  color:#6B6A75;
-  font-size: 16px;
-  font-weight:700;
-  width:300px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.searchbar::-webkit-input-placeholder { /* Edge */
-  color:white;
-}
-.searchbar:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color:#6B6A75;
-}
-.searchbar::placeholder {
-  color:white;
-}
-.searchbar:hover{
-  box-shadow: 0 0 0 2pt white;
-}
-.searchbar:focus{
-  outline:none;
-  border:3px white solid;
-  color:#121212;
-  background-color:white;
+.field input{
+  width: 260px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #EAEAEA;
 }

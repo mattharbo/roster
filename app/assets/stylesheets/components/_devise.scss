@@ -2,3 +2,16 @@
   width: 300px;
   margin:0 auto;
 }
+.actions input{
+  width: 100%;
+  border-radius:25px;
+  padding:8px 34px;
+  color:white;
+  background:linear-gradient(136deg, #70FFBD, #0ffa8f);
+  text-decoration:none;
+  border: none;
+}
+.actions input:hover{
+  transform: scale(1.02);
+  cursor:pointer;
+}

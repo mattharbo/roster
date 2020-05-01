@@ -53,7 +53,7 @@
    width:1000px;
    margin:0 auto;
  }
- .alert{
+ .notice{
    position:absolute;
    bottom:15px;
    right:40px;
@@ -71,9 +71,6 @@
    font-family: "Fellix bold";
    font-size: 24px;
    color:#01190C;
- }
- input {
-   /* font-family: 'FontAwesome'; */
  }
 
  /* #### CSS Parials #### */
