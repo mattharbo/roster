@@ -1,3 +1,46 @@
+@import "components/colors";
+
+.btn_avatar{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 15px;
+  height:40px;
+  border-radius:6px;
+  color:$black-green;
+  background-color:white;
+}
+.btn_avatar:hover{
+  background-color:$btn-bg-grey;
+}
+.btn_header_action{
+  margin-left:10px;
+  background-color:$btn-bg-grey;
+}
+.btn_header_action:hover{
+  background-color:$btn-hover-grey;
+}
+.circle{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width:32px;
+  height:32px;
+  border-radius:100%;
+}
+.picture{
+  margin-left: 10px;
+  background-color:$btn-hover-green;
+  color:$green-dark;
+}
+
+
+
+
+// ###############
+// Clean up still to do
+// ###############
+
 .btn_secondary{
   border-radius:25px;
   border: 1px solid #E6E6E6;
@@ -13,8 +56,6 @@
 .btn_default{
   margin-right:30px;
 }
-
-
 
 .btn-primary{
   font-family: "Cabin semibold";

@@ -1,16 +1,44 @@
 <% if user_signed_in? %>
 
-  <div class="header">
+  <div class="header_bg">
 
-    <div class="logo_and_search">
-      <%= show_svg('logo-roster.svg') %>
-    </div>
+    <div class="container header_content">
 
-    <div class="header_right_info">
-      <div class="btn_default">
-        <%= current_user.email %>
-      </div>
-        <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_secondary"%>
+        <div class="header_left_content">
+          <%= show_svg('logo-roster.svg') %>
+        </div>
+
+        <div class="header_center_content">
+
+          center content
+
+        </div>
+
+        <div class="header_right_content">
+
+          <button type="button" name="avatar" class="btn_avatar">
+            Your name here
+            <div class="circle picture">
+              <%= current_user.email[0,1].capitalize %>
+            </div>
+          </button>
+
+          <button type="button" name="create" class="circle btn_header_action">
+            <%= show_svg('icon-create.svg') %>
+          </button>
+
+          <button type="button" name="right-menu" class="circle btn_header_action">
+            <%= show_svg('icon-expand-black.svg') %>
+          </button>
+
+
+            <!--  <%= current_user.email %>   -->
+            <!--  <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_secondary"%>   -->
+
+
+        </div>
+
+
     </div>
 
   </div>
