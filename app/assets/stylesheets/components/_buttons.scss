@@ -33,9 +33,18 @@
   background-color:$btn-hover-green;
   color:$green-dark;
 }
-
-
-
+.btn-menu{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width:105px;
+  height:40px;
+  border-radius:6px;
+  margin:0 2px 0 2px;
+}
+.btn-menu:hover{
+  background-color:$btn-hover-grey;
+}
 
 // ###############
 // Clean up still to do

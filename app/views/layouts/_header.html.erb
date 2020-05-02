@@ -10,14 +10,38 @@
 
         <div class="header_center_content">
 
-          center content
+          <div class="menu-entry active">
+            <%= link_to teams_path, class: "btn-menu" do %>
+              <%= show_svg('icon-home.svg') %>
+            <% end %>
+          </div>
+          <div class="menu-entry">
+            <%= link_to teams_path, class: "btn-menu" do %>
+              <%= show_svg('icon-teams.svg') %>
+            <% end %>
+          </div>
+          <div class="menu-entry">
+            <%= link_to teams_path, class: "btn-menu" do %>
+              <%= show_svg('icon-fixtures.svg') %>
+            <% end %>
+          </div>
+          <div class="menu-entry">
+            <%= link_to teams_path, class: "btn-menu" do %>
+              <%= show_svg('icon-bookmarks.svg') %>
+            <% end %>
+          </div>
+          <div class="menu-entry">
+            <%= link_to teams_path, class: "btn-menu" do %>
+              <%= show_svg('icon-stats.svg') %>
+            <% end %>
+          </div>
 
         </div>
 
         <div class="header_right_content">
 
           <button type="button" name="avatar" class="btn_avatar">
-            Your name here
+            Matthieu
             <div class="circle picture">
               <%= current_user.email[0,1].capitalize %>
             </div>
@@ -31,13 +55,10 @@
             <%= show_svg('icon-expand-black.svg') %>
           </button>
 
-
             <!--  <%= current_user.email %>   -->
             <!--  <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_secondary"%>   -->
 
-
         </div>
-
 
     </div>
 
