@@ -17,17 +17,12 @@
 	align-items:center;
 	justify-content:flex-start;
   width:200px;
-
-  // background-color: brown;
 }
 .header_center_content{
   display: flex;
   align-items:center;
   justify-content:center;
   flex-grow:2;
-  width: 400px;
-
-  // background-color: yellow;
 }
 .menu-entry{
   display: flex;
@@ -42,6 +37,4 @@
   display:flex;
   align-items:center;
   justify-content:flex-end;
-
-  // background-color: pink;
 }

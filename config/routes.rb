@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   devise_scope :user do
     authenticated :user do
-      root 'teams#index', as: :authenticated_root
+      root 'pages#dashboard', as: :authenticated_root
     end
 
     unauthenticated do
@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   end
 
   resources :teams, only:[:index]
+  get 'dashboard' , to: 'pages#dashboard'
 end

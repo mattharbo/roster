@@ -10,8 +10,8 @@
 
         <div class="header_center_content">
 
-          <%= content_tag :div, :class => ["menu-entry", current_class?(authenticated_root_path)] do -%>
-            <%= link_to teams_path, class: "btn-menu" do %>
+          <%= content_tag :div, :class => ["menu-entry", current_class?(dashboard_path)] do -%>
+            <%= link_to dashboard_path, class: "btn-menu" do %>
               <%= show_svg('icon-home.svg') %>
             <% end %>
           <% end %>
