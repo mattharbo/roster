@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'teams/index'
 
   devise_scope :user do
     authenticated :user do

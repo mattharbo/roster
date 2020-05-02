@@ -10,31 +10,35 @@
 
         <div class="header_center_content">
 
-          <div class="menu-entry active">
+          <%= content_tag :div, :class => ["menu-entry", current_class?(authenticated_root_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-home.svg') %>
             <% end %>
-          </div>
-          <div class="menu-entry">
+          <% end %>
+
+          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-teams.svg') %>
             <% end %>
-          </div>
-          <div class="menu-entry">
+          <% end %>
+
+          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-fixtures.svg') %>
             <% end %>
-          </div>
-          <div class="menu-entry">
+          <% end %>
+
+          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-bookmarks.svg') %>
             <% end %>
-          </div>
-          <div class="menu-entry">
+          <% end %>
+
+          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-stats.svg') %>
             <% end %>
-          </div>
+          <% end %>
 
         </div>
 
