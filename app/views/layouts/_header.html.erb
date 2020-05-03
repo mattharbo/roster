@@ -10,31 +10,31 @@
 
         <div class="header_center_content">
 
-          <%= content_tag :div, :class => ["menu-entry", current_class?(dashboard_path)] do -%>
+          <%= content_tag :div, :class => ["center-menu-entry", current_class?(dashboard_path)] do -%>
             <%= link_to dashboard_path, class: "btn-menu" do %>
               <%= show_svg('icon-home.svg') %>
             <% end %>
           <% end %>
 
-          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
+          <%= content_tag :div, :class => ["center-menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-teams.svg') %>
             <% end %>
           <% end %>
 
-          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
+          <%= content_tag :div, :class => ["center-menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-fixtures.svg') %>
             <% end %>
           <% end %>
 
-          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
+          <%= content_tag :div, :class => ["center-menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-bookmarks.svg') %>
             <% end %>
           <% end %>
 
-          <%= content_tag :div, :class => ["menu-entry", current_class?(teams_path)] do -%>
+          <%= content_tag :div, :class => ["center-menu-entry", current_class?(teams_path)] do -%>
             <%= link_to teams_path, class: "btn-menu" do %>
               <%= show_svg('icon-stats.svg') %>
             <% end %>
@@ -55,9 +55,34 @@
             <%= show_svg('icon-create.svg') %>
           </button>
 
-          <button type="button" name="right-menu" class="circle btn_header_action">
+
+
+          <div class="">
+
+
+
+          <input type="checkbox" id="menu">
+
+          <label for="menu" class="circle btn_header_action">
             <%= show_svg('icon-expand-black.svg') %>
-          </button>
+          </label>
+
+          <div class="right-menu-content">
+              <ul>
+                  <li>
+                    <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+                  </li>
+              </ul>
+          </div>
+
+
+
+          </div>
+
+
+
+
+
 
             <!--  <%= current_user.email %>   -->
             <!--  <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_secondary"%>   -->
