@@ -37,14 +37,14 @@
  }
 @import "components/colors";
  body{
-   background-color:#fff;
+   // background-color:#fff;
    color:#6B6A75;
    font-family: "Cabin medium", sans-serif;
    font-size:14px;
    margin:0;
-   // background:linear-gradient(180deg, white, $body-bg-grey);
-   // background-repeat: no-repeat;
-   // height: 100vh;
+   background:linear-gradient(180deg, white, $body-bg-grey);
+   background-repeat: no-repeat;
+   height: 100vh;
  }
  ::selection {
   background:#98FFCF; /* WebKit/Blink Browsers */

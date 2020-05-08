@@ -1,17 +1,41 @@
-.login_form{
+.devise_page_container{
+  display:flex;
+  align-items:center;
+  height:100vh;
+}
+.devise_form_container{
+  text-align: center;
+  margin:0 auto;
+}
+.devise_login_form{
   width: 300px;
   margin:0 auto;
+  background-color:white;
+  padding:10px 40px;
+  border-radius:6px;
+}
+.devise-logo-container{
+  margin-top:15px;
 }
 .actions input{
   width: 100%;
   border-radius:25px;
-  padding:8px 34px;
+  padding:12px 34px;
   color:white;
-  background:linear-gradient(136deg, #70FFBD, #0ffa8f);
+  background-color: #51E2A0;
+  // background:linear-gradient(0,#38CB88,#51E2A0);
+  // background:linear-gradient(136deg, #70FFBD, #0ffa8f);
   text-decoration:none;
   border: none;
 }
 .actions input:hover{
-  transform: scale(1.02);
   cursor:pointer;
+  background-color:#38CB88;
+}
+.devise-link{
+  color: #51E2A0;
+  text-decoration:none;
+}
+.devise-link:hover{
+  color: #38CB88;
 }

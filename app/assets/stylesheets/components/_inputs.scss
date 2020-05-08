@@ -1,3 +1,4 @@
+@import "components/colors";
 input {
   font-family: "Cabin medium", sans-serif;
   font-size:14px;
@@ -9,5 +10,7 @@ input {
   width: 260px;
   height: 40px;
   border-radius: 30px;
-  border: 1px solid #EAEAEA;
+  border: 0px;
+  background-color:$btn-bg-grey;
+  outline:none;
 }
