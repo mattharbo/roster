@@ -5,7 +5,7 @@ button{
   outline:none;
   font-family: "Cabin medium", sans-serif;
   font-size:14px;
-  cursor:pointer;
+  // cursor:pointer;
 }
 .btn_avatar{
   display: flex;
@@ -18,7 +18,7 @@ button{
   background-color:white;
 }
 .btn_avatar:hover{
-  background-color:$btn-bg-grey;
+  // background-color:$btn-bg-grey;
 }
 .btn_header_action{
   margin-left:10px;
@@ -39,6 +39,7 @@ button{
   margin-left: 10px;
   background-color:$btn-active-bg-green;
   color:$green-dark;
+  font-size:12px;
 }
 .btn-menu{
   display: flex;
@@ -51,6 +52,15 @@ button{
 }
 .btn-menu:hover{
   background-color:$btn-hover-grey;
+}
+.btn-right-menu{
+  text-decoration:none;
+  // padding:10px 20px;
+  color:$black-green;
+  border-radius:6px;
+}
+.btn-right-menu:hover{
+  background-color:$btn-bg-grey;
 }
 
 // ###############

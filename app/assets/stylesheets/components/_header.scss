@@ -39,38 +39,3 @@
   align-items:center;
   justify-content:flex-end;
 }
-input#menu{
-  display:none;
-}
-.header_right_content label{
-  position:relative;
-  cursor:pointer;
-}
-input:checked +label{
-  background-color:$btn-active-bg-green;
-  top:19px;
-}
-input:checked +label:hover{
-  background-color:$btn-hover-active-bg-green;
-}
-.right-menu-content{
-  position:relative;
-  max-height: 0;
-  overflow: hidden;
-  background-color: white;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08);
-  -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08);
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08);
-
-  top:25px;
-  right:46px;
-}
-input:checked ~.right-menu-content{
-  max-height: 100%;
-}
-.right-menu-content li{
-  padding: 10px 20px;
-
-  // background-color:yellow;
-}

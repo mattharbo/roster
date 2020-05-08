@@ -51,41 +51,9 @@
             </div>
           </button>
 
-          <button type="button" name="create" class="circle btn_header_action">
-            <%= show_svg('icon-create.svg') %>
-          </button>
-
-
-
-          <div class="">
-
-
-
-          <input type="checkbox" id="menu">
-
-          <label for="menu" class="circle btn_header_action">
-            <%= show_svg('icon-expand-black.svg') %>
-          </label>
-
-          <div class="right-menu-content">
-              <ul>
-                  <li>
-                    <%= link_to "Log out", destroy_user_session_path, method: :delete %>
-                  </li>
-              </ul>
-          </div>
-
-
-
-          </div>
-
-
-
-
-
-
-            <!--  <%= current_user.email %>   -->
-            <!--  <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "btn_secondary"%>   -->
+          <%= link_to destroy_user_session_path, method: :delete, class: "circle btn_header_action" do %>
+            <%= show_svg('icon-logout.svg') %>
+          <% end %>
 
         </div>
 
