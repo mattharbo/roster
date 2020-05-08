@@ -16,12 +16,13 @@ button{
   border-radius:6px;
   color:$black-green;
   background-color:white;
+  text-decoration:none;
 }
 .btn_avatar:hover{
-  // background-color:$btn-bg-grey;
+  background-color:$btn-bg-grey;
 }
 .btn_header_action{
-  // margin-left:10px;
+  margin-left:5px;
   background-color:$btn-bg-grey;
 }
 .btn_header_action:hover{

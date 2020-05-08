@@ -44,12 +44,12 @@
 
         <div class="header_right_content">
 
-          <button type="button" name="avatar" class="btn_avatar">
-            Matthieu
-            <div class="circle picture">
-              <%= current_user.email[0,1].capitalize %>
-            </div>
-          </button>
+            <%= link_to edit_user_registration_path, class: "btn_avatar" do %>
+              Matthieu
+              <div class="circle picture">
+                <%= current_user.email[0,1].capitalize %>
+              </div>
+            <% end %>
 
           <%= link_to destroy_user_session_path, method: :delete, class: "circle btn_header_action" do %>
             <%= show_svg('icon-logout.svg') %>
