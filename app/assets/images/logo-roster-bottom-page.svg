@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="24px" viewBox="0 0 72 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo roster.</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-776.000000, -110.000000)" fill="#EAEAEA">
+            <g id="Logo-roster." transform="translate(776.000000, 110.000000)">
+                <text id="roster." font-family="Fellix-Black, Fellix" font-size="15" font-weight="700">
+                    <tspan x="28.1575" y="18">roster.</tspan>
+                </text>
+                <path d="M12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 Z M18.0942857,17.9914286 L15.3257143,13.5942857 C15.3257143,13.5942857 16.7914286,12.78 16.7914286,10.4185714 C16.7914286,8.05714286 15.1628571,6.42857143 11.58,6.42857143 C9.13714286,6.42857143 6.85714286,6.59142857 6.85714286,6.59142857 L6.85714286,17.9914286 L11.0914286,17.9914286 L11.0914286,14.2457143 L11.2542857,14.2457143 L13.2085714,17.9914286 L18.0942857,17.9914286 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

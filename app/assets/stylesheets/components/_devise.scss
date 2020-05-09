@@ -1,16 +1,19 @@
+@import "components/colors";
+
 .devise_page_container{
   display:flex;
   align-items:center;
   height:100vh;
+  background:linear-gradient(180deg, white, $body-bg-grey);
 }
 .devise_form_container{
   text-align: center;
   margin:0 auto;
 }
 .devise_login_form{
+  background-color:white;
   width: 300px;
   margin:0 auto;
-  background-color:white;
   padding:10px 40px;
   border-radius:6px;
 }
